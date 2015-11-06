@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.button11 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button11
@@ -40,11 +41,21 @@
             this.button11.Text = "button11";
             this.button11.UseVisualStyleBackColor = true;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(61, 314);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(537, 440);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.button11);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -54,6 +65,7 @@
 
         #endregion
         private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button1;
     }
 }
 
